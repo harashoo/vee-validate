@@ -1,6 +1,6 @@
 import { validate } from '@/rules/numeric';
 
-const valid = ['1234567890', 123, '٠١٢٣٤', '٠١٢٣٤٥٦٧٨٩'];
+const valid = ['1234567890', 123, 1.23, '٠١٢٣٤', '٠١٢٣٤٥٦٧٨٩', '١,٢٣'];
 
 const invalid = ['a', '1234567a89', null, undefined, true, false, {}, '+123', '-123'];
 
